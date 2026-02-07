@@ -5,8 +5,8 @@ const isDev = !app.isPackaged;
 
 function createWindow() {
     const win = new BrowserWindow({
-        height: 600,
-        width: 800,
+        height: 1280,
+        width: 720,
         webPreferences: {
             nodeIntegration: true,
         },
@@ -15,7 +15,7 @@ function createWindow() {
     });
 
     win.setTitle('My App');
-    win.loadFile('index.html');
+    win.loadFile(path.join(__dirname, 'client-dist/index.html'));
     win.webContents.openDevTools();
 }
 

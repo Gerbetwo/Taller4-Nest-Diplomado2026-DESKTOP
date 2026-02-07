@@ -11,7 +11,7 @@
     "package:mac": "electron-builder --mac"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gebertwo <lassomoluna9@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
