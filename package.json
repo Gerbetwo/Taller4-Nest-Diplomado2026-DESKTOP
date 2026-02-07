@@ -2,9 +2,9 @@
   "name": "minipos-desktop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "electron . --no-sandbox",
+    "dev": "electron . --no-sandbox",
     "package": "electron-builder",
     "package:linux": "electron-builder --linux",
     "package:win": "electron-builder --win",
