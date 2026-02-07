@@ -1,0 +1,26 @@
+{
+  "appId": "com.deepsaffix.cliente",
+  "productName": "DeepSaffix Cliente",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*",
+    "node_modules/**/*"
+  ],
+  "linux": {
+    "target": ["AppImage", ],
+    "category": "Utility",
+    "icon": "public/icon.png"
+  },
+  "win": {
+    "target": ["portable"],
+    "icon": "public/icon.ico"
+  },
+  "mac": {
+    "target": ["dmg"],
+    "category": "public.app-category.utilities",
+    "icon": "public/icon.icns"
+  }
+}
